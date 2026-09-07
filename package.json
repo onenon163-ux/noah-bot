@@ -1,1 +1,17 @@
-
+{
+  "name": "noah-bot",
+  "version": "1.0.0",
+  "description": "Noah Discord AI Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.32.0"
+  }
+}
